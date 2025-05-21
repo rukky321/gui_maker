@@ -1,6 +1,6 @@
-#> gui_maker:errors/run_trigger
+#> gui_maker:run_trigger
 #
-# 設定されているsound_functionを実行する
+# trigger_itemに設定されているfunctionを実行する
 # guimaker: args.run_trigger ストレージにアイテムのminecraft:custom_data.gui_makerの内容を入れる必要あり(使用後にリセット)
 # @within gui_maker:*
 
