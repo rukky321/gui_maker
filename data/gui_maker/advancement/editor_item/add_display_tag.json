@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "gui_maker:use_editor_item/add_display_tag"
+    "function": "gui_maker:editor_item/add_display_tag"
   }
 }

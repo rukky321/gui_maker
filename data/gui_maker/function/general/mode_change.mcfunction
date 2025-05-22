@@ -2,7 +2,7 @@
 #
 # 編集モードと通常モードを切り替える
 # @user
-# @within gui_maker:use_editor_item/mode_change
+# @within gui_maker:editor_item/mode_change
 
 execute if entity @s[tag=!gui_maker.edit] run tag @s add gui_maker.to_edit
 

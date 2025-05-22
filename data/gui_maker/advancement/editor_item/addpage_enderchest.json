@@ -8,7 +8,7 @@
           "predicates": {
             "minecraft:custom_data": {
               "gui_maker": {
-                "editor_item": 4
+                "editor_item": 3
               }
             }
           }
@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "gui_maker:use_editor_item/addpage_enderchest"
+    "function": "gui_maker:editor_item/addpage_enderchest"
   }
 }

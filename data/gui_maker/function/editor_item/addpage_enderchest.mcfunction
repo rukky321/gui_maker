@@ -1,4 +1,4 @@
-#> gui_maker:use_editor_item/addpage_enderchest
+#> gui_maker:editor_item/addpage_enderchest
 # advancementから実行
 # @private
 
@@ -6,7 +6,7 @@
 stopsound @s * ambient.basalt_deltas.additions
 
 # 実績削除
-advancement revoke @s only gui_maker:use_editor_item/addpage_enderchest
+advancement revoke @s only gui_maker:editor_item/addpage_enderchest
 
 # チェストの上に立っていないなら実行を中止
 execute unless block ~ ~ ~ chest run tellraw @s {"color":"red","italic":false,"text":"チェストの上に立って実行してください！"}
