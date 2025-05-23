@@ -1,10 +1,10 @@
-#> gui_maker:check_dropitem
+#> gui_maker:system/check_dropitem
 # trigger_itemのドロップを検知しfunctionを実行する
 # @within gui_maker:tick
 
 # function実行
 data modify storage gui_maker: args.run_trigger set from entity @s Item.components.minecraft:custom_data.gui_maker
-execute on origin if entity @s[tag=!gui_maker.edit] run function gui_maker:run_trigger
+execute on origin if entity @s[tag=!gui_maker.edit] run function gui_maker:system/run_trigger
 
 # ページの更新
 execute on origin if entity @s[tag=!gui_maker.edit] run function gui_maker:enderchest/refresh

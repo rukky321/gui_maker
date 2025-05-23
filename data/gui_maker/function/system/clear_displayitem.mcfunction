@@ -1,4 +1,4 @@
-#> gui_maker:clear_displayitem
+#> gui_maker:system/clear_displayitem
 # display_onlyタグがついたアイテムを削除
 # @within gui_maker:*
 

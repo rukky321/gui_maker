@@ -5,6 +5,6 @@
         }
     },
     "rewards": {
-        "function": "gui_maker:inventory_change"
+        "function": "gui_maker:system/inventory_change"
     }
 }

@@ -1,4 +1,4 @@
-#> gui_maker:run_function
+#> gui_maker:system/run_function
 #
 # コマンドマクロでfunctionを実行する
 # @within gui_maker:*

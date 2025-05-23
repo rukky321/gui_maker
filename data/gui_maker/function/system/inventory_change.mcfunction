@@ -1,9 +1,9 @@
-#> gui_maker:inventory_change
+#> gui_maker:system/inventory_change
 #
 # @private
 
 # displayアイテムは一度削除
-execute if entity @s[tag=!gui_maker.edit] run function gui_maker:clear_displayitem
+execute if entity @s[tag=!gui_maker.edit] run function gui_maker:system/clear_displayitem
 
 #guiの更新
 function gui_maker:general/refresh_all

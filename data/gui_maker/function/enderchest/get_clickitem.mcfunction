@@ -1,6 +1,6 @@
 #> gui_maker:enderchest/get_clickitem
 # チェスト内のどのアイテムがなくなったかを確認
-# @within gui_maker:enderchest/check
+# @within gui_maker:enderchest/click_trigger
 
 # 返り値のリセット
 data remove storage gui_maker: return.enderchest/get_clickitem

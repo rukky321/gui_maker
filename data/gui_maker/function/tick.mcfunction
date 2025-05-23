@@ -3,7 +3,7 @@
 # @within minecraft:tick
 
 # guiアイテムのドロップを検知し、プレイヤごとに操作
-execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{gui_maker:{trigger_item:1b}}}}}] run function gui_maker:check_dropitem
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{gui_maker:{trigger_item:1b}}}}}] run function gui_maker:system/check_dropitem
 
 # エンダーチェスト内のアイテムのクリックを検知し実行(シフトクリックの処理もやってる)
 execute as @a[tag=!gui_maker.edit] run function gui_maker:enderchest/check
